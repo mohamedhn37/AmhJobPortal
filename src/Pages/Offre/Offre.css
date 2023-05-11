@@ -1,0 +1,10 @@
+.jobSearch{
+    background: var(--col-blue-init);
+}
+.TypeContrat{
+    max-height: 100px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    cursor: pointer;
+}
+

@@ -1,0 +1,11 @@
+.footer{
+    background: var(--col-blue-init);
+}
+
+.footer a {
+    color: var(--col-dark-light);
+    font-weight: bold;
+}
+.footer a:hover {
+    color: var(--col-red);
+}

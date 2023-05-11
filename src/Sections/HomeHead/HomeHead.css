@@ -1,0 +1,16 @@
+.HomeGenerale{
+    padding: 80px 0;
+    background: url('../../img/wave.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content img{
+    border-radius: 30px 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+@media (max-width: 576px){
+    .HomeGenerale .row .col-md-5{
+        display: none;
+    }
+}
