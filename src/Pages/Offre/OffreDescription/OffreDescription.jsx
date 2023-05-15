@@ -8,7 +8,7 @@ const OffreDescription = () => {
         <>
             <div className="OffreDescription">
                 <div className="container-fluid DetailOffre">
-                    <SeactionHead title="Détail de l'offre" />
+                    <SeactionHead title="Détail de l'offre"/>
                 </div>
                 <div className="container">
                     <div className="row">
