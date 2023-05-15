@@ -28,12 +28,12 @@ const OffreDescription = () => {
                             <div className="jobdetail">
                                 <h5 className='text-primary fw-bold text-center mb-3'>Detail de l'offre</h5>
                                 <ul className='list-unstyled'>
-                                    <li className='fw-bold'>Référence: <span className='text-primary'>AAAAAA2023</span></li>
-                                    <li className='fw-bold'>Lieu: <span className='text-primary'>CASA</span></li>
-                                    <li className='fw-bold'>Type: <span className='text-primary'>CDI</span></li>
-                                    <li className='fw-bold'>Domaine: <span className='text-primary'>Marketing</span></li>
-                                    <li className='fw-bold'>Niveau d'étude: <span className='text-primary'>Bac+5</span></li>
-                                    <li className='fw-bold'>Niveau d'expérience: <span className='text-primary'>5 à 10</span></li>
+                                    <li className='fw-bold'>Référence: <span className='text-primary float-end'>AAAAAA2023</span></li>
+                                    <li className='fw-bold'>Lieu: <span className='text-primary float-end'>CASA</span></li>
+                                    <li className='fw-bold'>Type: <span className='text-primary float-end'>CDI</span></li>
+                                    <li className='fw-bold'>Domaine: <span className='text-primary float-end'>Marketing</span></li>
+                                    <li className='fw-bold'>Niveau d'étude: <span className='text-primary float-end'>Bac+5</span></li>
+                                    <li className='fw-bold'>Niveau d'expérience: <span className='text-primary float-end'>5 à 10</span></li>
                                 </ul>
                             </div>
 
