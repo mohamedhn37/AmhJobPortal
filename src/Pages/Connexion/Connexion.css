@@ -62,7 +62,7 @@ form.sign-in-form{
     margin: 10px 0;
     height: 55px;
 }
-.connexion .input-field input{
+.connexion .input-field input,.input-field select{
     position: relative;
     width: 100%;
     font-size: 1.2em;

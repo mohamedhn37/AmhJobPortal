@@ -40,7 +40,6 @@ const Header = () => {
                   </NavLink>
                   <ul className="dropdown-menu">
                     <li><NavLink className="nav-link" to="https://groupeamh.org/evenements/" target='_blank'>Actualité</NavLink></li>
-                    <li><NavLink className="nav-link" to="/Forum">Nos Forum</NavLink></li>
                     <li><NavLink className="nav-link" to="https://www.talents-handicap.com/images/pdf/guide_candidats_2023.pdf" target='_blank'>Quide De Condidature</NavLink></li>
                     <li><NavLink className="nav-link" to="/FAQ">Foire Aux Questions</NavLink></li>
                   </ul>
