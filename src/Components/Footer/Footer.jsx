@@ -9,7 +9,7 @@ import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
 const Footer = () => {
   return (
     <>
-        <div className="container-fluid footer mt-5 px-5 pt-5">
+        <div className="container-fluid footer px-5 pt-5">
             <div className="row">
                 <div className="col-md-6">
                     <h2 className='fw-bold'>Abonnez-vous à notre newsletter</h2>

@@ -16,7 +16,7 @@ SwiperCore.use([Navigation, Pagination, Autoplay]);
 const Partner = () => {
     return (
         <>
-            <div className="container">
+            <div className="container my-4">
                 <SeactionHead title="Nos Partenaire" />
                 <div className="row">
                     <div className="col-md-12">

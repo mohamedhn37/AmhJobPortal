@@ -9,6 +9,7 @@ import Conseil from './Pages/Conseil/Conseil';
 import FAQ from './Pages/FAQ/FAQ';
 import Contact from './Pages/Contact/Contact';
 import Connexion from './Pages/Connexion/Connexion';
+import OffreDescription from './Pages/Offre/OffreDescription/OffreDescription';
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/Contact" element={<Contact/>}/>
         <Route path="/Connexion" element={<Connexion/>}/>
         <Route path="/FAQ" element={<FAQ/>}/>
+        <Route path="/OffreDescription" element={<OffreDescription/>}/>
       </Routes>
       <Footer />
     </Router>

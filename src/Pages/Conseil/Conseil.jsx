@@ -7,7 +7,7 @@ const Conseil = () => {
         <>
             <div className="Conseil">
                 <div className="container my-5">
-                    <SeactionHead title="Nos conseils pour réussir votre recherche" description="Accueil / Conseils Candidats" />
+                    <SeactionHead title="Nos conseils pour réussir votre recherche" description="Conseils Candidats" />
                     <div className="row">
                         <div className="col-md-12">
                             <section className="fw-bold my-3">

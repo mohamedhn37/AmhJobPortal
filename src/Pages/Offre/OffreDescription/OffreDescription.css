@@ -1,0 +1,40 @@
+.OffreDescription {
+  background-color: #f0f0f0;
+}
+.DetailOffre {
+  background: url("../../../img/disabledP3.png");
+  background-size: cover;
+  padding: 75px 0;
+}
+.infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin: 50px 0;
+  background-color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.OffreDescription button {
+  border: 0;
+  border-radius: 15px;
+  background: var(--col-blue-init);
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 15px 20px;
+}
+.OffreDescription:hover button {
+  background: var(--col-blue-ciel);
+}
+.OffreDescription .description, .OffreDescription .jobdetail {
+  background: #fff;
+  padding: 25px;
+  margin-bottom: 50px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}

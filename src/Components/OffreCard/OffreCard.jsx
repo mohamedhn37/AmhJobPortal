@@ -1,6 +1,7 @@
 import React from 'react'
 import './OffreCard.css'
 import { FaClock, FaMapMarkerAlt } from 'react-icons/fa'
+import { NavLink } from 'react-router-dom'
 
 const OffreCard = () => {
     return (
@@ -13,11 +14,13 @@ const OffreCard = () => {
                         </div>
                         <div className="offreDescription my-3">
                             <h3>Nom D'offre</h3>
-                            <p><FaMapMarkerAlt className='me-1'/> Location</p>
-                            <p><FaClock className='me-1'/>05-05-2023</p>
+                            <p><FaMapMarkerAlt className='me-1' /> Location</p>
+                            <p><FaClock className='me-1' />05-05-2023</p>
                             <p>Type D'offre</p>
                         </div>
-                        <button type="button">Postuler</button>
+                        <NavLink to="/OffreDescription">
+                            <button type="button">Postuler</button>
+                        </NavLink>
                     </div>
                 </div>
             </div>
