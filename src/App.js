@@ -10,6 +10,7 @@ import FAQ from './Pages/FAQ/FAQ';
 import Contact from './Pages/Contact/Contact';
 import Connexion from './Pages/Connexion/Connexion';
 import OffreDescription from './Pages/Offre/OffreDescription/OffreDescription';
+import CompanyDetail from './Pages/Employeur/CompanyDetail/CompanyDetail';
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/Connexion" element={<Connexion/>}/>
         <Route path="/FAQ" element={<FAQ/>}/>
         <Route path="/OffreDescription" element={<OffreDescription/>}/>
+        <Route path="/CompanyDetail" element={<CompanyDetail/>}/>
       </Routes>
       <Footer />
     </Router>

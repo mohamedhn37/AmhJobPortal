@@ -2,6 +2,7 @@ import React from 'react'
 import './RecruteurCard.css'
 import disabledp2 from '../../img/disabledP9.png'
 import { FaHotel, FaMapMarkerAlt } from 'react-icons/fa'
+import { NavLink } from 'react-router-dom'
 
 const RecruteurCard = (props) => {
     return (
@@ -29,7 +30,9 @@ const RecruteurCard = (props) => {
                             <div className="d-flex align-items-center flex-column text-center">
                                 <h3 className="fs-5 fw-bold text-danger">détails de l'entreprise</h3>
                                 <p className="text-black-50 mt-2">{props.CompanyDescription}</p>
-                                <button className='btn btn-danger'>Voir Plus</button>
+                                <NavLink to="/CompanyDetail">
+                                    <button className='btn btn-danger'>Voir Plus</button>
+                                </NavLink>
                             </div>
                         </div>
                     </div>
