@@ -1,12 +1,18 @@
 import React from 'react'
 import './Footer.css';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import LogoAmh from '../../img/LOGO-SITE-WHITE.png'
 import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 
 
 const Footer = () => {
+
+    const location = useLocation();
+    const showFooter = location.pathname !== '/UserDashboard'; 
+    if (!showFooter) {
+      return null;
+    }
   return (
     <>
         <div className="container-fluid footer px-5 pt-5">

@@ -11,12 +11,15 @@ import Contact from './Pages/Contact/Contact';
 import Connexion from './Pages/Connexion/Connexion';
 import OffreDescription from './Pages/Offre/OffreDescription/OffreDescription';
 import CompanyDetail from './Pages/Employeur/CompanyDetail/CompanyDetail';
+import UserDashboard from './Pages/UserDashboard/UserDashboard';
 
 
 const App = () => {
+
+
   return (
     <Router>
-      <Header />
+      <Header/>
       <Routes>
         <Route path="/" element={<HomeGenerale/>}/>
         <Route path="/Offre" element={<Offre/>}/>
@@ -27,6 +30,7 @@ const App = () => {
         <Route path="/FAQ" element={<FAQ/>}/>
         <Route path="/OffreDescription" element={<OffreDescription/>}/>
         <Route path="/CompanyDetail" element={<CompanyDetail/>}/>
+        <Route path="/UserDashboard" element={<UserDashboard dashboard={true} />}/>
       </Routes>
       <Footer />
     </Router>
