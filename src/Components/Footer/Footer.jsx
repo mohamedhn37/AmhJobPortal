@@ -9,8 +9,13 @@ import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
 const Footer = () => {
 
     const location = useLocation();
-    const showFooter = location.pathname !== '/UserDashboard'; 
-    if (!showFooter) {
+    const hideHeaderPaths = ['/UserDashboard'];
+  
+    const shouldHideHeader = hideHeaderPaths.some((path) =>
+      location.pathname.startsWith(path)
+    );
+  
+    if (shouldHideHeader) {
       return null;
     }
   return (

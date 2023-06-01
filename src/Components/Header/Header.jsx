@@ -7,8 +7,13 @@ import LogoAmh from '../../img/Logo-AMH.png';
 const Header = () => {
 
   const location = useLocation();
-  const showHeader = location.pathname !== '/UserDashboard';
-  if (!showHeader) {
+  const hideHeaderPaths = ['/UserDashboard'];
+
+  const shouldHideHeader = hideHeaderPaths.some((path) =>
+    location.pathname.startsWith(path)
+  );
+
+  if (shouldHideHeader) {
     return null;
   }
 
@@ -47,9 +52,6 @@ const Header = () => {
                   <li><NavLink className="nav-link" to="https://www.talents-handicap.com/images/pdf/guide_candidats_2023.pdf" target='_blank'>Quide De Condidature</NavLink></li>
                   <li><NavLink className="nav-link" to="/FAQ">Foire Aux Questions</NavLink></li>
                 </ul>
-              </li>
-              <li className="nav-item px-1">
-                <NavLink className="nav-link" to="/Blog">Blog</NavLink>
               </li>
               <li className="nav-item px-1">
                 <NavLink className="nav-link" to="/Contact">Contact</NavLink>

@@ -1,14 +1,24 @@
-import React from 'react'
-import './UserDashboard.css'
-
-
+import React, { useState } from 'react';
+import "./UserDashboard.css";
+import AppHeader from "./Components/AppHeader/AppHeader";
+import PageContent from "./Components/PageContent/PageContent";
+import SideMenu from "./Components/SideMenu/SideMenu";
 
 function UserDashboard() {
+  const [isActive, setIsActive] = useState(false);
+  const toggleMenu = () => {
+    setIsActive(!isActive);
+  };
+
   return (
     <>
-      <h1>ggggggggg</h1>
+      <div className={`main ${isActive ? 'active' : ''}`}>
+        <AppHeader toggleMenu={toggleMenu} />
+        <PageContent></PageContent>
+      </div>
+      <SideMenu isActive={isActive}></SideMenu>
     </>
-  )
-}
 
-export default UserDashboard
+  );
+}
+export default UserDashboard;
