@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import "./CompanyDashboard.css";
 import AppHeader from "./Components/AppHeader/AppHeader";
 import PageContent from "./Components/PageContent/PageContent";
 import SideMenu from "./Components/SideMenu/SideMenu";
 
-function UserDashboard() {
+function CompanyDashboard() {
   const [isActive, setIsActive] = useState(false);
   const toggleMenu = () => {
     setIsActive(!isActive);
@@ -21,4 +20,4 @@ function UserDashboard() {
 
   );
 }
-export default UserDashboard;
+export default CompanyDashboard;

@@ -6,7 +6,7 @@ import { FaBoxOpen, FaCog, FaHome, FaInbox, FaSignOutAlt, FaUser, FaUserCheck } 
 
 const SideMenu = ({ isActive }) => {
   return (
-    <div className={`UserDashboard ${isActive ? 'active' : ''}`}>
+    <div className={`CompanyDashboard ${isActive ? 'active' : ''}`}>
       <div  className={`navigation ${isActive ? 'active' : ''}`}>
         <ul>
           <li>

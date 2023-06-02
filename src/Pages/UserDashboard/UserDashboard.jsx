@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import "./UserDashboard.css";
 import AppHeader from "./Components/AppHeader/AppHeader";
 import PageContent from "./Components/PageContent/PageContent";
 import SideMenu from "./Components/SideMenu/SideMenu";
