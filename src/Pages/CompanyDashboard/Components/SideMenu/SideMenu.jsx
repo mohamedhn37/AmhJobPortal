@@ -10,7 +10,7 @@ const SideMenu = ({ isActive }) => {
       <div  className={`navigation ${isActive ? 'active' : ''}`}>
         <ul>
           <li>
-            <NavLink to="/UserDashboard">
+            <NavLink to="/CompanyDashboard">
               <span className="icon">
                 <FaUserCheck className='ico'/>
               </span>
@@ -18,7 +18,7 @@ const SideMenu = ({ isActive }) => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/UserDashboard">
+            <NavLink to="/CompanyDashboard">
               <span className="icon">
                 <FaHome className="ico"/>
               </span>
@@ -26,7 +26,7 @@ const SideMenu = ({ isActive }) => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/UserDashboard/Profil">
+            <NavLink to="/CompanyDashboard/Profil">
               <span className="icon">
                 <FaUser className="ico" />
               </span>
@@ -35,7 +35,7 @@ const SideMenu = ({ isActive }) => {
           </li>
 
           <li>
-            <NavLink to="/UserDashboard/Offre">
+            <NavLink to="/CompanyDashboard/Offre">
               <span className="icon">
                 <FaInbox className="ico" />
               </span>
@@ -43,7 +43,7 @@ const SideMenu = ({ isActive }) => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/UserDashboard/GestionCondidature">
+            <NavLink to="/CompanyDashboard/GestionCondidature">
               <span className="icon">
                 <FaBoxOpen className="ico" />
               </span>
@@ -51,7 +51,7 @@ const SideMenu = ({ isActive }) => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/UserDashboard/Setting">
+            <NavLink to="/CompanyDashboard/Setting">
               <span className="icon">
                 <FaCog className="ico" />
               </span>
@@ -59,7 +59,7 @@ const SideMenu = ({ isActive }) => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/UserDashboard/SignOut">
+            <NavLink to="/CompanyDashboard/SignOut">
               <span className="icon">
                 <FaSignOutAlt className="ico" />
               </span>
