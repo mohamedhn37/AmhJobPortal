@@ -60,12 +60,12 @@ const Header = () => {
             <ul className="navbar-nav align-items-center">
               <li className="nav-item">
                 <NavLink className="nav-link" to="/Connexion">
-                  <button className='btn btn-danger text-dark fw-bold'>Postuler</button>
+                  <button className='HeaderBtn'>Postuler</button>
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/Connexion">
-                  <button className='btn btn-primary fw-bold'>Inscription</button>
+                  <button className='HeaderBtn'>Inscription</button>
                 </NavLink>
               </li>
             </ul>

@@ -5,7 +5,7 @@ const ProccesCard = (props) => {
   return (
     <>
         <div className="col-md-3">
-            <div className="card cardProcces align-items-center rounded-circle py-3 my-4">
+            <div className="cardProcces rounded-circle py-3 my-3">
                 {props.children}
             </div>        
         </div>  

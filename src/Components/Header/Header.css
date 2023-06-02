@@ -26,6 +26,19 @@ header{
     visibility: visible;
     width: 25px;
 }
+.HeaderBtn{
+    border: 0;
+    border-radius: 15px;
+    background: var(--col-blue-init);
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+.HeaderBtn:hover{
+    background: var(--col-blue-ciel);
+    color: var(--col-blue-second);
+}
 
 .dropdown-menu{
     padding: 14px;

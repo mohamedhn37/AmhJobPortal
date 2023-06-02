@@ -56,7 +56,7 @@ const JobSearch = () => {
                                     </select>
                                 </div>
                                 <div className="col-md-3 col-sm-12 d-flex justify-content-center">
-                                    <button className='btn btn-primary fw-bold mt-3'>Chercher</button>
+                                    <button className='HeaderBtn mt-3'>Chercher</button>
                                 </div>
                             </div>
                         </form>

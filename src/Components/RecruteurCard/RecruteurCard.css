@@ -56,7 +56,13 @@
     height: 11rem;
     justify-content: center;
     padding: .75rem;
-    background: linear-gradient( to bottom, var(--col-blue-second), var(--col-red) );
+    background: var(--col-blue-init);
+}
+.card-front__tp .textMap{
+    color: var(--col-dark-light);
+}
+.card-front__bt .textDetail{
+    color: var(--col-red);
 }
 .card-back {
     background-color: #fafbfa;

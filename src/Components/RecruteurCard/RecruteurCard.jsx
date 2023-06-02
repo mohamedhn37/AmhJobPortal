@@ -15,10 +15,10 @@ const RecruteurCard = (props) => {
                                     <div className="card-front__tp text-light">
                                         <FaHotel className='fs-1 mb-1'/>
                                         <h2 className="fs-4 fw-bold mb-2">{props.CompanyName}</h2>
-                                        <p className="text-info"><FaMapMarkerAlt/>{props.Companymap}</p>
+                                        <p className="textMap"><FaMapMarkerAlt/>{props.Companymap}</p>
                                     </div>
                                     <div className="card-front__bt d-flex justify-content-center align-items-center">
-                                        <p className="text-danger fs-4 fw-bold my-2">Voir Détails</p>
+                                        <p className="textDetail fs-4 fw-bold my-2">Voir Détails</p>
                                     </div>
                                 </div>
                                 <div className="card-back">

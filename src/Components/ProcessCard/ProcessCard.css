@@ -1,4 +1,9 @@
 .cardProcces{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
     background-color: var(--col-blue-init);
 }
 .cardProcces:hover{
@@ -17,8 +22,8 @@
     font-weight: bold;
     cursor: pointer;
 }
-.cardProcces button:hover{
-    color: red;
+.cardProcces button a:hover{
+    color: var(--col-red);
 }
 .cardProcces button a{
     color: #000;
@@ -31,11 +36,11 @@
     height: 1px;
     left: 0;
     bottom: 0;
-    background-color: red;
+    background-color: var(--col-red);
     cursor: pointer;
     transform: scale(0, 1);
     transform-origin: 0% 100%;
-    transition: transform 0.5s ease;
+    transition: transform 1s ease;
 }
 .cardProcces button:hover::after{
     transform: scale(1, 1);

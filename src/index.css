@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 :root{
     --col-init: #E9E8E6;
     --col-second:#888888;
@@ -13,7 +13,7 @@
     padding: 0;
     box-sizing: border-box;
     max-width: 100%;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Jost', sans-serif;
 }
 .row{
     margin: auto;
