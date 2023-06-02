@@ -12,6 +12,7 @@ import Connexion from './Pages/Connexion/Connexion';
 import OffreDescription from './Pages/Offre/OffreDescription/OffreDescription';
 import CompanyDetail from './Pages/Employeur/CompanyDetail/CompanyDetail';
 import UserDashboard from './Pages/UserDashboard/UserDashboard';
+import CompanyDashboard from './Pages/CompanyDashboard/CompanyDashboard';
 
 
 
@@ -32,6 +33,7 @@ const App = () => {
         <Route path="/OffreDescription" element={<OffreDescription/>}/>
         <Route path="/CompanyDetail" element={<CompanyDetail/>}/>
         <Route path="/UserDashboard/*" element={<UserDashboard/>}/>
+        <Route path="/CompanyDashboard/*" element={<CompanyDashboard/>}/>
       </Routes>
       <Footer />
     </Router>

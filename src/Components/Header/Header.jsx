@@ -7,7 +7,7 @@ import LogoAmh from '../../img/Logo-AMH.png';
 const Header = () => {
 
   const location = useLocation();
-  const hideHeaderPaths = ['/UserDashboard'];
+  const hideHeaderPaths = ['/UserDashboard', '/CompanyDashboard'];
 
   const shouldHideHeader = hideHeaderPaths.some((path) =>
     location.pathname.startsWith(path)
