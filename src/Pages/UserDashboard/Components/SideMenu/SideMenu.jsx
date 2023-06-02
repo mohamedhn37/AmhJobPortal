@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { FaApple, FaCog, FaHome, FaInbox, FaSignOutAlt, FaUser } from 'react-icons/fa';
+import { FaCog, FaHome, FaInbox, FaSignOutAlt, FaUser, FaUserCheck } from 'react-icons/fa';
 
 
 
@@ -12,9 +12,9 @@ const SideMenu = ({ isActive }) => {
           <li>
             <NavLink to="/UserDashboard">
               <span className="icon">
-                <FaApple className='ico'/>
+                <FaUserCheck className='ico'/>
               </span>
-              <span className="title">Brand Name</span>
+              <span className="title">Nom D'utilisateur</span>
             </NavLink>
           </li>
           <li>
@@ -51,7 +51,7 @@ const SideMenu = ({ isActive }) => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/UserDashboard">
+            <NavLink to="/UserDashboard/SignOut">
               <span className="icon">
                 <FaSignOutAlt className="ico" />
               </span>
