@@ -15,7 +15,7 @@ const AppHeader = ({ toggleMenu }) => {
           </label>
         </div>
         <div className="user">
-          <img src="https://placehold.co/400x400" alt="UserProfil" />
+          <img src="https://placehold.co/600x600" alt="UserProfil" />
         </div>
       </div>
   );

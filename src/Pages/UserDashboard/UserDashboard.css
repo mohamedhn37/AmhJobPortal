@@ -31,6 +31,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  padding: 0;
   width: 100%;
 }
 
@@ -70,7 +71,7 @@
   display: block;
   min-width: 60px;
   height: 60px;
-  line-height: 75px;
+  line-height: 60px;
   text-align: center;
 }
 .navigation ul li a .icon .ico {
@@ -173,7 +174,7 @@
 
 .search label .icon {
   position: absolute;
-  top: 0;
+  top: 12px;
   left: 10px;
   font-size: 1.2rem;
 }

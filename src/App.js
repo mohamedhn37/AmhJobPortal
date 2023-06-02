@@ -14,6 +14,7 @@ import CompanyDetail from './Pages/Employeur/CompanyDetail/CompanyDetail';
 import UserDashboard from './Pages/UserDashboard/UserDashboard';
 
 
+
 const App = () => {
 
 
@@ -30,7 +31,7 @@ const App = () => {
         <Route path="/FAQ" element={<FAQ/>}/>
         <Route path="/OffreDescription" element={<OffreDescription/>}/>
         <Route path="/CompanyDetail" element={<CompanyDetail/>}/>
-        <Route path="/UserDashboard" element={<UserDashboard />}/>
+        <Route path="/UserDashboard/*" element={<UserDashboard/>}/>
       </Routes>
       <Footer />
     </Router>
