@@ -11,11 +11,11 @@ import Setting from '../../Pages/Setting/Setting'
 const AppRoutes = () => {
     return (
         <Routes>
-            <Route path="/UserDashboard" element={<Dashboard/>} />
-            <Route path="/UserDashboard/Profil" element={<Profil/>} />
-            <Route path="/UserDashboard/Offre" element={<Offre/>} />
-            <Route path="/UserDashboard/GestionCondidature" element={<GestionCondidature/>} />
-            <Route path="/UserDashboard/Setting" element={<Setting/>} />
+            <Route path="/CompanyDashboard" element={<Dashboard/>} />
+            <Route path="/CompanyDashboard/Profil" element={<Profil/>} />
+            <Route path="/CompanyDashboard/Offre" element={<Offre/>} />
+            <Route path="/CompanyDashboard/GestionCondidature" element={<GestionCondidature/>} />
+            <Route path="/CompanyDashboard/Setting" element={<Setting/>} />
         </Routes>
     )
 }
