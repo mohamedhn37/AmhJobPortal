@@ -11,8 +11,8 @@ import Contact from './Pages/Contact/Contact';
 import Connexion from './Pages/Connexion/Connexion';
 import OffreDescription from './Pages/Offre/OffreDescription/OffreDescription';
 import CompanyDetail from './Pages/Employeur/CompanyDetail/CompanyDetail';
-import UserDashboard from './Pages/UserDashboard/UserDashboard';
-import CompanyDashboard from './Pages/CompanyDashboard/CompanyDashboard';
+import UserDashboard from './Pages/Dashboard/UserDashboard/UserDashboard';
+import CompanyDashboard from './Pages/Dashboard/CompanyDashboard/CompanyDashboard';
 
 
 
