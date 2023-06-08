@@ -3,9 +3,9 @@
 }
 
 .footer a {
-    color: var(--col-dark-light);
+    color: #000;
     font-weight: bold;
 }
 .footer a:hover {
-    color: var(--col-red);
+    color: var(--col-init);
 }

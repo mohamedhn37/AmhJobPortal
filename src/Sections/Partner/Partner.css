@@ -1,0 +1,26 @@
+.partner-carousel {
+  overflow: hidden;
+}
+
+.carousel-slide {
+  white-space: nowrap;
+  animation: scroll 10s linear infinite;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.carousel-slide img {
+  display: inline-block;
+  width: auto;
+  height: 100px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.carousel-slide img:last-child {
+  margin-right: 0;
+}

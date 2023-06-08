@@ -45,8 +45,8 @@ const Connexion = () => {
                                         <div className="input-field">
                                             <select id="CompteType" name="Type" title="Vous êtes">
                                                 <option value="Choisir un Compte Type" selected>Vous êtes</option>
-                                                <option value="1">Utilisateur</option>
-                                                <option value="2">Société</option>
+                                                <option value="Condidat">Condidat</option>
+                                                <option value="Société">Société</option>
                                             </select>
                                         </div>
                                         <input type="submit" className="btn" value="Enregistrer" />

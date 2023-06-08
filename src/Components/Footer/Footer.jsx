@@ -38,10 +38,10 @@ const Footer = () => {
                 <div className="col-md-4 my-3">
                     <img src={LogoAmh} alt="logoAmh" width={250}/>
                     <p className='mt-3 fw-bold'>Fondé en 1992 et reconnu d’utilité publique, notre groupement associatif d’entrepreneuriat social intervient dans les domaines de la santé, de l’autonomie, de l’éducation et de la formation..</p>    
-                    <NavLink href="#"><FaFacebook className='me-4 text-white fs-5'/></NavLink>
-                    <NavLink href="#"><FaTwitter className='me-4 text-white fs-5'/></NavLink>
-                    <NavLink href="#"><FaLinkedin className='me-4 text-white fs-5'/></NavLink>
-                    <NavLink href="#"><FaYoutube className='me-4 text-white fs-5'/></NavLink>
+                    <NavLink to="#"><FaFacebook className='me-4 text-white fs-5'/></NavLink>
+                    <NavLink to="#"><FaTwitter className='me-4 text-white fs-5'/></NavLink>
+                    <NavLink to="#"><FaLinkedin className='me-4 text-white fs-5'/></NavLink>
+                    <NavLink to="#"><FaYoutube className='me-4 text-white fs-5'/></NavLink>
                 </div>
                 <div className="col-md-3 col-8 my-3">
                     <h4 className='text-white fw-bold'>Service AMH</h4>
@@ -67,22 +67,19 @@ const Footer = () => {
                     <h4 className='text-white fw-bold'>Quick link</h4>
                     <ul className='list-unstyled'>
                         <li className='my-2'>
-                            <NavLink href="/" className='text-decoration-none'>Accueil</NavLink>
+                            <NavLink to="/" className='text-decoration-none'>Accueil</NavLink>
                         </li>
                         <li className='my-2'>
-                            <NavLink href="/" className='text-decoration-none'>Offre</NavLink>
+                            <NavLink to="/Offre" className='text-decoration-none'>Offre</NavLink>
                         </li>
                         <li className='my-2'>
-                            <NavLink href="/" className='text-decoration-none'>Blog</NavLink>
+                            <NavLink to="https://groupeamh.org/evenements/" target='_blank' className='text-decoration-none'>Actualité</NavLink>
                         </li>
                         <li className='my-2'>
-                            <NavLink href="/" className='text-decoration-none'>About</NavLink>
+                            <NavLink to="/FAQ" className='text-decoration-none'>FAQ</NavLink>
                         </li>
                         <li className='my-2'>
-                            <NavLink href="/" className='text-decoration-none'>FAQ</NavLink>
-                        </li>
-                        <li className='my-2'>
-                            <NavLink href="/" className='text-decoration-none'>Contact</NavLink>
+                            <NavLink to="/Contact" className='text-decoration-none'>Contact</NavLink>
                         </li>
                     </ul>
                 </div>
@@ -90,13 +87,13 @@ const Footer = () => {
                     <h4 className='text-white fw-bold'>Contact infos</h4>
                     <ul className='list-unstyled'>
                         <li className='my-2'>
-                            <NavLink href="/" className='text-decoration-none'>contact@groupeamh.org</NavLink>
+                            <NavLink to="/" className='text-decoration-none'>contact@groupeamh.org</NavLink>
                         </li>
                         <li className='my-2'>
-                            <NavLink href="/" className='text-decoration-none'>+212 5229-85051</NavLink>
+                            <NavLink to="/" className='text-decoration-none'>+212 5229-85051</NavLink>
                         </li>
                         <li className='my-2'>
-                            <NavLink href="/" className='text-decoration-none'>77 Bd 9 Avril, Casablanca 20000</NavLink>
+                            <NavLink to="/" className='text-decoration-none'>77 Bd 9 Avril, Casablanca 20000</NavLink>
                         </li>
                     </ul>
                 </div>

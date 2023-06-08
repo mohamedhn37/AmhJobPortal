@@ -11,11 +11,11 @@ const JobSearch = () => {
                     <div className="formSearch">
                         <form>
                             <div className="row align-items-center">
-                                <div className="col-md-3 col-sm-12 form-group">
+                                <div className="col-md-3 col-sm-12 form-group mb-3">
                                     <FaSearch className='icon' />
                                     <input name="cle" type="text" className="form-control" title="#" placeholder="Quoi ? poste..." />
                                 </div>
-                                <div className="col-md-3 col-sm-12 form-group">
+                                <div className="col-md-3 col-sm-12 form-group mb-3">
                                     <FaShoppingBag className='icon' />
                                     <select id="domaine" name="domaine" title="Choisir un Domaine" className='select-header'>
                                         <option value="Choisir un Domaine" selected>Domaine</option>
@@ -39,7 +39,7 @@ const JobSearch = () => {
                                         <option value="18">Autres</option>
                                     </select>
                                 </div>
-                                <div className="col-md-3 col-sm-12 form-group">
+                                <div className="col-md-3 col-sm-12 form-group mb-3">
                                     <FaMapMarkerAlt className='icon'/>
                                     <select id="ville" name="ville" title="Choisir une Ville" className='select-header'>
                                         <option value="Choisir une ville" selected>ville</option>
@@ -55,8 +55,8 @@ const JobSearch = () => {
                                         <option value="10">LAAYOUNE</option>
                                     </select>
                                 </div>
-                                <div className="col-md-3 col-sm-12 d-flex justify-content-center">
-                                    <button className='HeaderBtn mt-3'>Chercher</button>
+                                <div className="col-md-3 col-sm-12 d-flex justify-content-center mb-3">
+                                    <button className='HeaderBtn'>Chercher</button>
                                 </div>
                             </div>
                         </form>

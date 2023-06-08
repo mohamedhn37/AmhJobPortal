@@ -2,6 +2,9 @@
 header{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+.logo{
+    height: 55px;
+}
 .first .nav-link{
     color: var(--col-second);
     font-size: 15px;
@@ -43,10 +46,5 @@ header{
 .dropdown-menu{
     padding: 14px;
 }
-.profile-image{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-right: 10px;
-}
+
 /********header*******/
