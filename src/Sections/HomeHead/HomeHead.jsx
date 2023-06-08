@@ -13,7 +13,7 @@ const HomeHead = () => {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-7">
-                            <SeactionHead title="La façon la plus facile pour accompagner vers l'emploi les candidats en situation d'handicap" description="Rechercher parmi les offres d'emploi, d'alternance ou de stage" />
+                            <SeactionHead className="mb-1 text-black-50" title="La façon la plus facile pour accompagner vers l'emploi les candidats en situation d'handicap" description="Rechercher parmi les offres d'emploi, d'alternance ou de stage" />
                             <JobSearch />
                             <div className="row">
                                 <div className="col-md-12 d-flex justify-content-end align-items-center mt-3">

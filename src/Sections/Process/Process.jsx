@@ -8,7 +8,7 @@ const Process = () => {
     return (
         <>
             <div className="container my-5">
-                <SeactionHead title="Notre processus de travail" description="Pour choisir votre rêve d’emploi tendance et pour rendre l’avenir brillant" />
+                <SeactionHead className="mb-1 text-black-50" title="Notre processus de travail" description="Pour choisir votre rêve d’emploi tendance et pour rendre l’avenir brillant" />
                 <div className="row my-4">
                     <ProccesCard>
                         <FaUsers className='fs-1' />

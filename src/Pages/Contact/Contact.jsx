@@ -7,7 +7,7 @@ const Contact = () => {
     return (
         <>
             <div className="container my-5">
-                <SeactionHead title="Contactez-Nous" description="Vous voulez bénéficier de nos services ? Vous avez une question  ? Une suggestion  ?  Utilisez le formulaire ci-dessous, l’équipe du Groupe AMH vous répondra dans les meilleurs délais." />
+                <SeactionHead className="mb-1 text-black-50" title="Contactez-Nous" description="Vous voulez bénéficier de nos services ? Vous avez une question  ? Une suggestion  ?  Utilisez le formulaire ci-dessous, l’équipe du Groupe AMH vous répondra dans les meilleurs délais." />
                 <div className="row my-3">
                     <div className="col-md-5">
                         <iframe className='iframeSource' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53184.78313701171!2d-7.705144978320313!3d33.578078399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d2bf564eac39%3A0x189977a1021576fc!2sGroupe%20AMH!5e0!3m2!1sfr!2sma!4v1683277898477!5m2!1sfr!2sma" allowfullscreen="" title='amhlocation' loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

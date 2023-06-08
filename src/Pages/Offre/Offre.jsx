@@ -10,7 +10,7 @@ const Offre = () => {
         <>
 
             <div className="container my-4">
-                <SeactionHead title="Travailleurs en situation de handicap : postulez aux offres d'emploi" />
+                <SeactionHead className="mb-1 text-black-50" title="Travailleurs en situation de handicap : postulez aux offres d'emploi" />
                 <JobSearch />
                 <div className="row my-5 justify-content-center align-items-start">
                     <div className="col-md-4 bg-light rounded-3 mb-4">

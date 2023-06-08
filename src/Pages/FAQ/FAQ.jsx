@@ -6,7 +6,7 @@ const FAQ = () => {
     return (
         <>
             <div className="container my-5">
-                <SeactionHead title="Foire Aux Questions" description="Obtenez des réponses rapides aux questions les plus courantes." />
+                <SeactionHead className="mb-1 text-black-50" title="Foire Aux Questions" description="Obtenez des réponses rapides aux questions les plus courantes." />
                 <div className="row">
                     <div className="col-md-12">
                         <div className="accordion" id="accordionExample">
